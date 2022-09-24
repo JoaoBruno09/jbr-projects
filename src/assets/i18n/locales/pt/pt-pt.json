@@ -1,0 +1,82 @@
+[
+  {
+    "translation": {
+      "Short Description": "Engenheiro Informático | Licenciado em Engenharia Informática | A frequentar mestrado em Engenharia Informática",
+      "Long Description": "Durante os meus anos de estudante, ganhei experiência profissional e envolvi-me num projeto internacional que permitiu-me sair da minha zona de conforto. Esta experiência internacional deu-me a oportunidade de conhecer diferentes pessoas e culturas para além de aperfeiçoar a língua inglesa. Após esta experiência internacional, fui selecionado para fazer parte do Summer Camp da Critical Software, onde aprendi novas tecnologias e percebi como uma empresa trabalha nos seus projetos. Neste momento, frequento o Mestrado em Engenharia Informática - Sistemas Computacionais no Instituto Superior de Engenharia do Porto.",
+      "Available in": "Disponível em",
+      "Scroll to see more": "Scroll para ver mais",
+      "Languages": "Linguagens",
+      "Frameworks": "Frameworks",
+      "Databases": "Base de dados",
+      "Tools": "Ferramentas",
+      "Professional Experience": "Experiência Profissional",
+      "Present": "Presente",
+      "Academic Education": "Formação Académica",
+      "Footer Text": "© 2022. Todos os direitos reservados."
+    }
+  },
+  {
+    "jobs": [
+      {
+        "Company Name": "KPMG Portugal",
+        "CompanyImage": "images/companies/kpmg-portugal.jfif",
+        "Job Position": "Consultor Informático Analista",
+        "Start Date": "out 2022",
+        "End Date": "presente",
+        "Job Description": ""
+      },
+      {
+        "Company Name": "IDSocial",
+        "CompanyImage": "images/companies/idsocial.jfif",
+        "Job Position": "Freelancer",
+        "Start Date": "out 2021",
+        "End Date": "set 2022",
+        "Job Description": "Desenvolvi vários projetos para as mais variadas áreas, desde a construção civil, ao retalho, à logística, etc. O objetivo foi criar um software que satisfaça as ideias do cliente. Otimizei competências a nível de organização de tempo, estando a conciliando com a licenciatura, contacto direto com o cliente, proatividade e a adquirir experiência como freelancer."
+      },
+      {
+        "Company Name": "Critical Software",
+        "CompanyImage": "images/companies/critical-software.jfif",
+        "Job Position": "Estágio de Verão | Estagiário",
+        "Start Date": "jul 2022",
+        "End Date": "ago 2022",
+        "Job Description": "Neste estágio de verão, para além de trabalhar com novas ferramentas de gestão de projetos e com novas tecnologias para desenvolvimento de software, tive a oportunidade de conhecer pessoas espalhadas por Portugal Continental."
+      },
+      {
+        "Company Name": "Âmbito Infinito",
+        "CompanyImage": "images/companies/ambito-infinito.jfif",
+        "Job Position": "Estágio Curricular | Estagiário",
+        "Start Date": "jun 2017",
+        "End Date": "jul 2018",
+        "Job Description": "Como desenvolvedor web era responsável por desenvolver software para os clientes utilizando várias tecnologias e linguagens de programação. Foi a minha primeira experiência profissional onde comecei a desenvolver competências tais como: comunicação e contacto direto com o cliente."
+      }
+    ]
+  },
+  {
+    "facs": [
+      {
+        "University Name": "Instituto Superior de Engenharia do Porto",
+        "UniversityImage": "images/facs/isep.jfif",
+        "University Course": "Mestrado em Engenharia Informática- Sistemas Computacionais",
+        "Start Date": "set 2022",
+        "End Date": "presente",
+        "University Description": ""
+      },
+      {
+        "University Name": "AP Hogeschool Antwerpen",
+        "UniversityImage": "images/facs/ap-hogeschool.jfif",
+        "University Course": "European Project Semester",
+        "Start Date": "jan 2022",
+        "End Date": "jun 2022",
+        "University Description": "Permitiu-me comunicar em inglês e aprender uma nova tecnologia e linguagem de programação através do desenvolvimento de uma aplicação mobile para uma empresa belga na área da educação (Onderwijstalent). Desenvolvi competências de gestão de projetos de software, comunicação, trabalho em equipa, flexibilidade, adaptação e agilidade de aprendizagem."
+      },
+      {
+        "University Name": "Instituto Superior Politécnico de Gaya",
+        "UniversityImage": "images/facs/ispgaya.jfif",
+        "University Course": "Licenciatura em Engenharia Informática",
+        "Start Date": "set 2019",
+        "End Date": "jun 2022",
+        "University Description": "Permitiu-me aperfeiçoar técnicas de programação, aprender novas tecnologias e linguagens, criar e gerir base de dados, gerir e planear redes de computadores e aprender inteligência artificial. Desenvolvi competências de gestão de projetos de software, processamento de informação, desenvolvimento de algoritmos e análise de métodos matemáticos."
+      }
+    ]
+  }
+]

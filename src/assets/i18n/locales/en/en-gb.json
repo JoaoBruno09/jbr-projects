@@ -1,0 +1,82 @@
+[
+  {
+    "translation": {
+      "Short Description": "Computer Engineer | Bachelor's of Computer Engineering | Studying for Master's of Computer Engineering",
+      "Long Description": "During my student years, I gained professional experience and I was involved in an international project that allowed me to step out of my comfort zone. This international experience gave me the opportunity to meet different persons and cultures, as well as improve my English language. After this international experience, I was selected to be part of the Summer Camp at Critical Software, where I learned new technologies and how a big company works in its projects. At the moment, I'm doing my Master's of Computer Engineering - Computing Systems at Instituto Superior de Engenharia do Porto.",
+      "Available in": "Available in",
+      "Scroll to see more": "Scroll to see more",
+      "Languages": "Languages",
+      "Frameworks": "Frameworks",
+      "Databases": "Databases",
+      "Tools": "Tools",
+      "Professional Experience": "Professional Experience",
+      "Present": "Present",
+      "Academic Education": "Academic Education",
+      "Footer Text": "© 2022. All Rights Reserved."
+    }
+  },
+  {
+    "jobs": [
+      {
+        "Company Name": "KPMG Portugal",
+        "CompanyImage": "images/companies/kpmg-portugal.jfif",
+        "Job Position": "Technology Consultant Analyst",
+        "Start Date": "Oct 2022",
+        "End Date": "Present",
+        "Job Description": ""
+      },
+      {
+        "Company Name": "IDSocial",
+        "CompanyImage": "images/companies/idsocial.jfif",
+        "Job Position": "Freelancer",
+        "Start Date": "Oct 2021",
+        "End Date": "Sept 2022",
+        "Job Description": "I developed several projects for many areas, from civil construction, to retail, to logistics, etc. The goal was to create software that satisfies the customer's ideas. I optimized my skills in direct contact with the customer, proactivity, acquiring experience as a freelancer and time organization, while I was doing my bachelor’s degree."
+      },
+      {
+        "Company Name": "Critical Software",
+        "CompanyImage": "images/companies/critical-software.jfif",
+        "Job Position": "Summer Internship | Intern",
+        "Start Date": "Jul 2022",
+        "End Date": "Aug 2022",
+        "Job Description": "In this summer internship, besides of learning new tools of managing projects and new technologies for software development, I had the opportunity to meet new people spread across Portugal."
+      },
+      {
+        "Company Name": "Âmbito Infinito",
+        "CompanyImage": "images/companies/ambito-infinito.jfif",
+        "Job Position": "Curricular Internship | Intern",
+        "Start Date": "Jun 2017",
+        "End Date": "Jul 2018",
+        "Job Description": "As a web developer I was responsible for developing software for customers using various technologies and programming languages. It was my first professional experience where I started to develop skills such as: communication and direct contact with the customer."
+      }
+    ]
+  },
+  {
+    "facs": [
+      {
+        "University Name": "Instituto Superior de Engenharia do Porto",
+        "UniversityImage": "images/facs/isep.jfif",
+        "University Course": "Master's of Computer Engineering | Computing Systems",
+        "Start Date": "Sept 2022",
+        "End Date": "Present",
+        "University Description": ""
+      },
+      {
+        "University Name": "AP Hogeschool Antwerpen",
+        "UniversityImage": "images/facs/ap-hogeschool.jfif",
+        "University Course": "European Project Semester",
+        "Start Date": "Jan 2022",
+        "End Date": "Jun 2022",
+        "University Description": "Allowed me to communicate in English and learn a new technology and programming language by developing a mobile application for a Belgian company in the area of education (Onderwijstalent).I have developed skills in software project management, communication, teamwork, flexibility, adaptation and learning agility."
+      },
+      {
+        "University Name": "Instituto Superior Politécnico de Gaya",
+        "UniversityImage": "images/facs/ispgaya.jfif",
+        "University Course": "Bachelor's of Computer Engineering",
+        "Start Date": "Sept 2019",
+        "End Date": "Jun 2022",
+        "University Description": "Allowed me to improve programming techniques, learn new technologies and languages, create and manage databases, manage and plan computer networks and learn artificial intelligence.I developed skills in software project management, information processing, algorithm development and analysis of mathematical methods."
+      }
+    ]
+  }
+]
