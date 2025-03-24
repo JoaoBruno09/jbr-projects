@@ -1,8 +1,8 @@
 [
   {
     "translation": {
-      "Short Description": "Computer Engineer | Bachelor's of Computer Engineering | Studying for Master's of Computer Engineering",
-      "Long Description": "During my student years, I gained professional experience and I was involved in an international project that allowed me to step out of my comfort zone. This international experience gave me the opportunity to meet different persons and cultures, as well as improve my English language. After this international experience, I was selected to be part of the Summer Camp at Critical Software, where I learned new technologies and how a big company works in its projects. At the moment, I'm doing my Master's of Computer Engineering - Computing Systems at Instituto Superior de Engenharia do Porto.",
+      "Short Description": "Software Engineer | Master's of Computer Engineering",
+      "Long Description": "I am a dedicated Software Engineer with a proven track record in both front-end and back-end development. My journey began as a web developer using technologies like CodeIgniter, Bootstrap, HTML, CSS, and PHP, and has evolved to encompass advanced frameworks such as Angular, Spring Boot, and Java. My freelance experience at IDSocial further diversified my expertise across various industries, enabling me to meet unique client needs. At KPMG Portugal, I started in the front-end team and progressed to a Technical Lead role in the back-end division, collaborating with stakeholders, designing robust solutions, and mentoring developers.\n\nCurrently at DACHSER, I innovate in the contract and logistics space, delivering impactful software solutions.\n\nAcademically, I hold a Master’s in Computer Engineering from Instituto Superior de Engenharia do Porto, where I focused on CI/CD processes, microservices, REST API design, cybersecurity, and more. An international project experience during a European Project Semester enhanced my skills in project management, communication, and teamwork.",
       "Available in": "Available in",
       "Scroll to see more": "Scroll to see more",
       "Languages": "Languages",
@@ -12,18 +12,26 @@
       "Professional Experience": "Professional Experience",
       "Present": "Present",
       "Academic Education": "Academic Education",
-      "Footer Text": "© 2022. All Rights Reserved."
+      "Footer Text": "© 2025. All Rights Reserved."
     }
   },
   {
     "jobs": [
       {
-        "Company Name": "KPMG Portugal",
-        "CompanyImage": "images/companies/kpmg-portugal.jfif",
-        "Job Position": "Technology Consultant Analyst",
-        "Start Date": "Oct 2022",
+        "Company Name": "DACHSER",
+        "CompanyImage": "images/companies/dachser_logo.jfif",
+        "Job Position": "Software Engineer | Contract&Logistics",
+        "Start Date": "Mar 2025",
         "End Date": "Present",
         "Job Description": ""
+      },
+      {
+        "Company Name": "KPMG Portugal",
+        "CompanyImage": "images/companies/kpmg-portugal.jfif",
+        "Job Position": "Software Engineer",
+        "Start Date": "Oct 2022",
+        "End Date": "Mar 2025",
+        "Job Description": "I started on the Front-End team, spending 4 months working with Angular, in an important project for one of the company’s main clients. Then, as the project needs changed, I moved to the Back-End team, where I used Spring Boot. This change has helped me grow my skills in Java and gain experience with back-end technologies. After two years, I became a Technical Lead and I worked closely with stakeholders to understand project needs, design effective solutions, and solve technical challenges. Not only that, but I also guided a team of developers, helping them build their skills and follow best practices to improve teamwork and project results."
       },
       {
         "Company Name": "IDSocial",
@@ -31,7 +39,7 @@
         "Job Position": "Freelancer",
         "Start Date": "Oct 2021",
         "End Date": "Sept 2022",
-        "Job Description": "I developed several projects for many areas, from civil construction, to retail, to logistics, etc. The goal was to create software that satisfies the customer's ideas. I optimized my skills in direct contact with the customer, proactivity, acquiring experience as a freelancer and time organization, while I was doing my bachelor’s degree."
+        "Job Description": "I developed several projects across different industries, including civil construction, retail, and logistics. My goal was to create software that met each customer’s vision. During this time, I improved my skills in customer communication, proactivity, time management, and gained valuable experience as a freelancer—all while completing my bachelor’s degree."
       },
       {
         "Company Name": "Critical Software",
@@ -39,7 +47,7 @@
         "Job Position": "Summer Internship | Intern",
         "Start Date": "Jul 2022",
         "End Date": "Aug 2022",
-        "Job Description": "In this summer internship, besides of learning new tools of managing projects and new technologies for software development, I had the opportunity to meet new people spread across Portugal."
+        "Job Description": "During this summer internship, I learned new project management tools and software development technologies. I also had the chance to meet people from different parts of Portugal."
       },
       {
         "Company Name": "Âmbito Infinito",
@@ -47,7 +55,7 @@
         "Job Position": "Curricular Internship | Intern",
         "Start Date": "Jun 2017",
         "End Date": "Jul 2018",
-        "Job Description": "As a web developer I was responsible for developing software for customers using various technologies and programming languages. It was my first professional experience where I started to develop skills such as: communication and direct contact with the customer."
+        "Job Description": "As a web developer, I was responsible for creating software for clients using various technologies, including CodeIgniter and Bootstrap, as well as programming languages like HTML, CSS, and PHP. This was my first professional experience, where I began to develop important skills such as communication and direct interaction with customers."
       }
     ]
   },
@@ -57,9 +65,9 @@
         "University Name": "Instituto Superior de Engenharia do Porto",
         "UniversityImage": "images/facs/isep.jfif",
         "University Course": "Master's of Computer Engineering | Computing Systems",
-        "Start Date": "Sept 2022",
-        "End Date": "Present",
-        "University Description": ""
+        "Start Date": "Sep 2022",
+        "End Date": "Oct 2024",
+        "University Description": "I have developed knowledge in CI/CD processes and the supporting technologies, along with software development using a microservices architecture. Additionally, I have gained experience in parallel programming in Java and mobile application development with Java and Android Studio.\nI have also learned to build REST APIs following best practices based on the Richardson REST Maturity Model, and have gained skills in DBMS administration, focusing on performance, security, scalability, data protection, and failure recovery. Furthermore, I have acquired and applied principles for cybersecurity modeling, evaluation, and threat assessment, and can critically analyze tools to strengthen an organization’s cybersecurity posture."
       },
       {
         "University Name": "AP Hogeschool Antwerpen",
@@ -67,15 +75,15 @@
         "University Course": "European Project Semester",
         "Start Date": "Jan 2022",
         "End Date": "Jun 2022",
-        "University Description": "Allowed me to communicate in English and learn a new technology and programming language by developing a mobile application for a Belgian company in the area of education (Onderwijstalent).I have developed skills in software project management, communication, teamwork, flexibility, adaptation and learning agility."
+        "University Description": "This experience allowed me to communicate in English and learn a new technology and programming language while developing a mobile application for a Belgian education company, Onderwijstalent. I gained skills in software project management, communication, teamwork, flexibility, adaptability, and learning agility."
       },
       {
         "University Name": "Instituto Superior Politécnico de Gaya",
         "UniversityImage": "images/facs/ispgaya.jfif",
         "University Course": "Bachelor's of Computer Engineering",
-        "Start Date": "Sept 2019",
+        "Start Date": "Sep 2019",
         "End Date": "Jun 2022",
-        "University Description": "Allowed me to improve programming techniques, learn new technologies and languages, create and manage databases, manage and plan computer networks and learn artificial intelligence.I developed skills in software project management, information processing, algorithm development and analysis of mathematical methods."
+        "University Description": "This experience allowed me to enhance my programming techniques, learn new technologies and languages, create and manage databases, plan and manage computer networks, and explore artificial intelligence. I developed skills in software project management, information processing, algorithm development, and mathematical method analysis."
       }
     ]
   }

@@ -7,11 +7,13 @@ function Profissional() {
   //variable to do the translatin
   const { t, i18n } = useTranslation();
 
+  const savedLanguage = localStorage.getItem("language");
+
   //get the jobs in each language
-  const jobs = i18n.options.resources[i18n.language + "_jobs"];
+  const jobs = i18n.options.resources[savedLanguage + "_jobs"];
 
   //get the universities in each language
-  const facs = i18n.options.resources[i18n.language + "_facs"];
+  const facs = i18n.options.resources[savedLanguage + "_facs"];
 
   return (
     <div className="container2xl min-h-screen p-5 bg-white dark:bg-gray-900 dark:text-white">
@@ -33,7 +35,7 @@ function Profissional() {
                       />
                     </span>
                     <img
-                      className="p-3 w-20 rounded-3xl"
+                      className="p-0.5 md:p-2 lg:p-3 xl:p-3 2xl:p-3 w-20 rounded-3xl"
                       src={job.CompanyImage}
                       alt={job["Company Name"]}
                       title={job["Company Name"]}
@@ -42,7 +44,7 @@ function Profissional() {
                   <div className="col-span-11">
                     <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
                       {job["Job Position"]} - {job["Company Name"]}{" "}
-                      {job["End Date"] == "" && (
+                      {job["End Date"] === "" && (
                         <span className="bg-gray-900 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-white dark:text-gray-900 ml-3">
                           {t("Present")}
                         </span>
@@ -89,7 +91,7 @@ function Profissional() {
                   <div className="col-span-11">
                     <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
                       {fac["University Course"]} - {fac["University Name"]}{" "}
-                      {fac["End Date"] == "" && (
+                      {fac["End Date"] === "" && (
                         <span className="bg-gray-900 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-white dark:text-gray-900 ml-3">
                           {t("Present")}
                         </span>

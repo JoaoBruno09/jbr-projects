@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 //IMPORT ICONS
@@ -9,31 +9,34 @@ import {
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 import {
-  faWhatsapp,
   faLinkedin,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 //IMPORT IMAGES
-import logo from "../assets/images/JoaoRocha.jpg";
+import logo from "../assets/images/JoaoRocha.jpeg";
 import PTFlag from "../assets/images/PT-Portugal-Flag-icon.png";
 import ENFlag from "../assets/images/GB-United-Kingdom-Flag-icon.png";
 
 function Homepage() {
   //variable to do the translation
   const { t, i18n } = useTranslation();
-
-  const [darkMode, setdarkMode] = useState(
-    window.document.documentElement.classList.value
-  );
-
+  const pt = "pt-PT";
+  const en = "en-GB"
   const lngPT = useRef();
   const lngEN = useRef();
 
+  const handleScroll = () => {
+    window.scrollBy({ top: (window.innerWidth/1.2), behavior: "smooth" });
+  };
+
+  const savedTheme = localStorage.getItem("theme");
+  const [darkMode, setdarkMode] = useState(savedTheme === "dark");
+
   //check if its dark
   function isDark() {
-    if (darkMode === "dark") {
+    if (savedTheme === "dark") {
       return <FontAwesomeIcon icon={faSun} />;
     }
     return <FontAwesomeIcon icon={faMoon} />;
@@ -41,16 +44,44 @@ function Homepage() {
 
   //change the color of the theme
   function changeTheme() {
-    window.document.documentElement.classList.value === "dark"
-      ? window.document.documentElement.classList.remove("dark")
-      : window.document.documentElement.classList.add("dark");
-
-    setdarkMode(window.document.documentElement.classList.value);
+    const newTheme = darkMode ? "light" : "dark";
+    localStorage.setItem("theme", newTheme); 
+    setdarkMode(!darkMode);
+    newTheme?.match("dark")
+    ? window.document.documentElement.classList.add("dark")
+    : window.document.documentElement.classList.remove("dark");
   }
+
+  useEffect(() => {
+    //check if the browser's already has theme and language selected, if not select the default ones
+    const savedTheme = localStorage.getItem("theme");
+    if(!savedTheme){
+      localStorage.setItem("theme", "dark");
+    }
+
+    savedTheme.match("dark")
+    ? window.document.documentElement.classList.add("dark")
+    : window.document.documentElement.classList.remove("dark");
+
+    const savedLanguage = localStorage.getItem("language");
+    if(savedLanguage){
+      changeLang(savedLanguage);
+    }else if(!savedLanguage){
+        localStorage.setItem("language", "en-GB");
+    }
+  }, []);
 
   //change language
   function changeLang(lng) {
+    localStorage.setItem("language", lng);
     i18n.changeLanguage(lng);
+    if(lng === pt){
+      lngPT.current.className = "w-10 cursor-pointer";
+      lngEN.current.className ="w-10 opacity-50 hover:opacity-70 cursor-pointer";
+    }else if (lng === en){
+      lngEN.current.className = "w-10 cursor-pointer";
+      lngPT.current.className = "w-10 opacity-50 hover:opacity-70 cursor-pointer";
+    }
   }
 
   //open links
@@ -59,7 +90,7 @@ function Homepage() {
   }
 
   return (
-    <div className="container2xl min-h-screen p-5 bg-white dark:bg-gray-900 dark:text-white">
+    <div className="w-full min-h-screen p-5 bg-white dark:bg-gray-900 dark:text-white">
       <button
         className=" m-2 bg-transparent text-gray-900 dark:text-white text-3xl"
         onClick={changeTheme}
@@ -69,11 +100,11 @@ function Homepage() {
       <label className="inline-flex relative items-center cursor-pointer">
         <input
           type="checkbox"
-          value={darkMode}
+          value={savedTheme}
           id="default-toggle"
           onClick={changeTheme}
           className="sr-only peer"
-          checked={darkMode !== "dark"}
+          checked={savedTheme !== "dark"}
           readOnly
         ></input>
         <div className="w-11 h-6 bg-gray-200 peer-focus:outline-none rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-gray-900"></div>
@@ -93,7 +124,13 @@ function Homepage() {
             <span className="text-center text-gray-900 dark:opacity-60 opacity-80 dark:text-white">
               {t("Short Description")}
             </span>{" "}
-            <p className=" text-justify pt-4">{t("Long Description")}</p>
+            <p className=" text-justify pt-4">{t("Long Description").split("\n").map((line, index) => (
+              <span key={index}>
+                {line}
+                <br />
+              </span>
+              ))}
+            </p>
           </div>
           <div className="m-auto pt-9 space-x-4 inline-flex">
             <button
@@ -109,12 +146,6 @@ function Homepage() {
               className="bg-transparent p-1 rounded-md mt-1 ml-1 text-gray-900 hover:text-gray-600 dark:text-white dark:hover:text-gray-400 text-3xl"
             >
               <FontAwesomeIcon icon={faGithub} />
-            </button>
-            <button
-              onClick={() => openInNewTab("tel:+351910191841")}
-              className="bg-transparent p-1 rounded-md mt-1 ml-1 text-gray-900 hover:text-gray-600 dark:text-white dark:hover:text-gray-400 text-3xl"
-            >
-              <FontAwesomeIcon icon={faWhatsapp} />
             </button>
             <button
               onClick={() => openInNewTab("mailto:joao.bruno86@gmail.com")}
@@ -134,9 +165,6 @@ function Homepage() {
             ref={lngPT}
             onClick={() => {
               changeLang("pt-PT");
-              lngPT.current.className = "w-10 cursor-pointer";
-              lngEN.current.className =
-                "w-10 opacity-50 hover:opacity-70 cursor-pointer";
             }}
             className="w-10 opacity-50 hover:opacity-70 cursor-pointer"
             src={PTFlag}
@@ -146,9 +174,6 @@ function Homepage() {
             ref={lngEN}
             onClick={() => {
               changeLang("en-GB");
-              lngEN.current.className = "w-10 cursor-pointer";
-              lngPT.current.className =
-                "w-10 opacity-50 hover:opacity-70 cursor-pointer";
             }}
             className="w-10 cursor-pointer"
             src={ENFlag}
@@ -159,7 +184,7 @@ function Homepage() {
       <div className="m-auto justify-center xs:invisible sm:invisible md:invisible lg:visible xl:visible 2xl:visible">
         <div className="absolute inset-x-0 bottom-0 h-30 text-center animate-bounce">
           <p>{t("Scroll to see more")}</p>
-          <button className="text-xl rounded-full border-gray-900 dark:border-white border-2 p-3 mt-2 ">
+          <button onClick={handleScroll} className="text-xl rounded-full border-gray-900 dark:border-white border-2 p-3 mt-2 ">
             <FontAwesomeIcon icon={faArrowDown} />
           </button>
         </div>
