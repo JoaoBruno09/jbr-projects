@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { useState } from "react";
 //IMPORT ICONS
 import { faBriefcase, faBook } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -7,13 +8,14 @@ function Profissional() {
   //variable to do the translatin
   const { t, i18n } = useTranslation();
 
-  const savedLanguage = localStorage.getItem("language");
+  //check if the browser's already has language selected, if not select the default value
+  const [language, setLanguage] = useState(() => (localStorage.getItem("language") ? localStorage.getItem("language") : "en-GB"));
 
   //get the jobs in each language
-  const jobs = i18n.options.resources[savedLanguage + "_jobs"];
+  const jobs = i18n.options.resources[language + "_jobs"];
 
   //get the universities in each language
-  const facs = i18n.options.resources[savedLanguage + "_facs"];
+  const facs = i18n.options.resources[language + "_facs"];
 
   return (
     <div className="container2xl min-h-screen p-5 bg-white dark:bg-gray-900 dark:text-white">

@@ -26,53 +26,12 @@ function Homepage() {
   const en = "en-GB"
   const lngPT = useRef();
   const lngEN = useRef();
-
-  const handleScroll = () => {
-    window.scrollBy({ top: (window.innerWidth/1.2), behavior: "smooth" });
-  };
-
-  const savedTheme = localStorage.getItem("theme");
-  const [darkMode, setdarkMode] = useState(savedTheme === "dark");
-
-  //check if its dark
-  function isDark() {
-    if (savedTheme === "dark") {
-      return <FontAwesomeIcon icon={faSun} />;
-    }
-    return <FontAwesomeIcon icon={faMoon} />;
-  }
-
-  //change the color of the theme
-  function changeTheme() {
-    const newTheme = darkMode ? "light" : "dark";
-    localStorage.setItem("theme", newTheme); 
-    setdarkMode(!darkMode);
-    newTheme?.match("dark")
-    ? window.document.documentElement.classList.add("dark")
-    : window.document.documentElement.classList.remove("dark");
-  }
-
-  useEffect(() => {
-    //check if the browser's already has theme and language selected, if not select the default ones
-    const savedTheme = localStorage.getItem("theme");
-    if(!savedTheme){
-      localStorage.setItem("theme", "dark");
-    }
-
-    savedTheme.match("dark")
-    ? window.document.documentElement.classList.add("dark")
-    : window.document.documentElement.classList.remove("dark");
-
-    const savedLanguage = localStorage.getItem("language");
-    if(savedLanguage){
-      changeLang(savedLanguage);
-    }else if(!savedLanguage){
-        localStorage.setItem("language", "en-GB");
-    }
-  }, []);
+  //check if the browser's already has language selected, if not select the default value
+  const [language, setLanguage] = useState(() => (localStorage.getItem("language") ? localStorage.getItem("language") : en));
 
   //change language
   function changeLang(lng) {
+    setLanguage(lng);
     localStorage.setItem("language", lng);
     i18n.changeLanguage(lng);
     if(lng === pt){
@@ -83,6 +42,37 @@ function Homepage() {
       lngPT.current.className = "w-10 opacity-50 hover:opacity-70 cursor-pointer";
     }
   }
+
+  const dark = "dark";
+  const light= "light";
+  //check if the browser's already has theme selected, if not select the default value
+  const [theme, setTheme] = useState(() => (localStorage.getItem("theme") === light ? light : dark));
+
+  //check if its dark
+  function isDark() {
+    return theme === dark ? <FontAwesomeIcon icon={faSun} /> : <FontAwesomeIcon icon={faMoon} />;
+  }
+
+  //change the color of the theme
+  function changeTheme() {
+    const newTheme = theme === dark ? light : dark;
+    setTheme(newTheme);
+    localStorage.setItem("theme", newTheme); 
+    newTheme?.match(dark)
+    ? window.document.documentElement.classList.add(dark)
+    : window.document.documentElement.classList.remove(dark);
+  }
+
+  useEffect(() => {
+    changeLang(language);
+    theme.match(dark)
+    ? window.document.documentElement.classList.add(dark)
+    : window.document.documentElement.classList.remove(dark);
+  }, []);
+
+  const handleScroll = () => {
+    window.scrollBy({ top: (window.innerWidth/1.2), behavior: "smooth" });
+  };
 
   //open links
   function openInNewTab(url) {
@@ -100,11 +90,11 @@ function Homepage() {
       <label className="inline-flex relative items-center cursor-pointer">
         <input
           type="checkbox"
-          value={savedTheme}
+          value={theme}
           id="default-toggle"
           onClick={changeTheme}
           className="sr-only peer"
-          checked={savedTheme !== "dark"}
+          checked={theme !== "dark"}
           readOnly
         ></input>
         <div className="w-11 h-6 bg-gray-200 peer-focus:outline-none rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-gray-900"></div>
