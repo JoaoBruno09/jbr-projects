@@ -19,7 +19,7 @@
     "jobs": [
       {
         "Company Name": "DACHSER",
-        "CompanyImage": "images/companies/dachser_logo.jfif",
+        "CompanyImage": "jbr-projects/images/companies/dachser_logo.jfif",
         "Job Position": "Software Engineer | Contract&Logistics",
         "Start Date": "Mar 2025",
         "End Date": "Present",
@@ -27,7 +27,7 @@
       },
       {
         "Company Name": "KPMG Portugal",
-        "CompanyImage": "images/companies/kpmg-portugal.jfif",
+        "CompanyImage": "jbr-projects/images/companies/kpmg-portugal.jfif",
         "Job Position": "Software Engineer",
         "Start Date": "Oct 2022",
         "End Date": "Mar 2025",
@@ -35,7 +35,7 @@
       },
       {
         "Company Name": "IDSocial",
-        "CompanyImage": "images/companies/idsocial.jfif",
+        "CompanyImage": "jbr-projects/images/companies/idsocial.jfif",
         "Job Position": "Freelancer",
         "Start Date": "Oct 2021",
         "End Date": "Sept 2022",
@@ -43,7 +43,7 @@
       },
       {
         "Company Name": "Critical Software",
-        "CompanyImage": "images/companies/critical-software.jfif",
+        "CompanyImage": "jbr-projects/images/companies/critical-software.jfif",
         "Job Position": "Summer Internship | Intern",
         "Start Date": "Jul 2022",
         "End Date": "Aug 2022",
@@ -51,7 +51,7 @@
       },
       {
         "Company Name": "Âmbito Infinito",
-        "CompanyImage": "images/companies/ambito-infinito.jfif",
+        "CompanyImage": "jbr-projects/images/companies/ambito-infinito.jfif",
         "Job Position": "Curricular Internship | Intern",
         "Start Date": "Jun 2017",
         "End Date": "Jul 2018",
@@ -63,7 +63,7 @@
     "facs": [
       {
         "University Name": "Instituto Superior de Engenharia do Porto",
-        "UniversityImage": "images/facs/isep.jfif",
+        "UniversityImage": "jbr-projects/images/facs/isep.jfif",
         "University Course": "Master's of Computer Engineering | Cybersecurity and Systems Administration",
         "Start Date": "Sep 2022",
         "End Date": "Oct 2024",
@@ -71,7 +71,7 @@
       },
       {
         "University Name": "AP Hogeschool Antwerpen",
-        "UniversityImage": "images/facs/ap-hogeschool.jfif",
+        "UniversityImage": "jbr-projects/images/facs/ap-hogeschool.jfif",
         "University Course": "European Project Semester",
         "Start Date": "Jan 2022",
         "End Date": "Jun 2022",
@@ -79,7 +79,7 @@
       },
       {
         "University Name": "Instituto Superior Politécnico de Gaya",
-        "UniversityImage": "images/facs/ispgaya.jfif",
+        "UniversityImage": "jbr-projects/images/facs/ispgaya.jfif",
         "University Course": "Bachelor's of Computer Engineering",
         "Start Date": "Sep 2019",
         "End Date": "Jun 2022",

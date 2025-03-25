@@ -1,5 +1,4 @@
 import { useTranslation } from "react-i18next";
-import { useState } from "react";
 //IMPORT ICONS
 import { faBriefcase, faBook } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
