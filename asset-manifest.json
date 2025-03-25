@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/jbr-projects/static/css/main.0f17c596.css",
+    "main.js": "/jbr-projects/static/js/main.47c7e4df.js",
+    "static/media/bg-tech.jpg": "/jbr-projects/static/media/bg-tech.2664418daddb1a370d91.jpg",
+    "static/media/JoaoRocha.jpeg": "/jbr-projects/static/media/JoaoRocha.7890b11e45ad4ab7b5f7.jpeg",
+    "static/media/jenkins.png": "/jbr-projects/static/media/jenkins.848d9e209ff6ec47ac82.png",
+    "static/media/react.png": "/jbr-projects/static/media/react.48e140f2521bdbb8c796.png",
+    "static/media/PT-Portugal-Flag-icon.png": "/jbr-projects/static/media/PT-Portugal-Flag-icon.da29acac073389bc5d02.png",
+    "static/media/node.png": "/jbr-projects/static/media/node.80985df58d09307c3aca.png",
+    "static/media/java.png": "/jbr-projects/static/media/java.771d9be93a61973b3a2a.png",
+    "static/media/springboot.png": "/jbr-projects/static/media/springboot.21ce7bedd02f9fdec101.png",
+    "static/media/tailwind.png": "/jbr-projects/static/media/tailwind.ea940ced5a3bcebe9400.png",
+    "static/media/php.png": "/jbr-projects/static/media/php.6290573dd67a5e6a3fa8.png",
+    "static/media/swagger.png": "/jbr-projects/static/media/swagger.628688773aa691581e7d.png",
+    "static/media/bitbucket.png": "/jbr-projects/static/media/bitbucket.90e03c924c18fffd664c.png",
+    "static/media/codeigniter.png": "/jbr-projects/static/media/codeigniter.fa76c537a0f67162f847.png",
+    "static/media/css.png": "/jbr-projects/static/media/css.402ba874c51216a71a87.png",
+    "static/media/angular.png": "/jbr-projects/static/media/angular.8fa4db33ed1500d3dee1.png",
+    "static/media/gitlab.png": "/jbr-projects/static/media/gitlab.ca151fa136cd8cf6553e.png",
+    "static/media/docker.png": "/jbr-projects/static/media/docker.4a649d362f0841dc590d.png",
+    "static/media/bootstrap.png": "/jbr-projects/static/media/bootstrap.5a3121e7f7d7a3029b41.png",
+    "static/media/javascript.png": "/jbr-projects/static/media/javascript.b40957c22d0a41394000.png",
+    "static/media/sql.png": "/jbr-projects/static/media/sql.d6528bf8e136b07289ca.png",
+    "static/media/ionic.png": "/jbr-projects/static/media/ionic.bcfa1e80c0202328fc0b.png",
+    "static/media/github.png": "/jbr-projects/static/media/github.f84f0a219e0552ae3133.png",
+    "static/media/typescript.png": "/jbr-projects/static/media/typescript.f9f849ee4e1b09a84a70.png",
+    "static/media/git.png": "/jbr-projects/static/media/git.9de70544538452fc7941.png",
+    "static/media/GB-United-Kingdom-Flag-icon.png": "/jbr-projects/static/media/GB-United-Kingdom-Flag-icon.3eda1b26256fc91255cc.png",
+    "static/media/html.png": "/jbr-projects/static/media/html.ff3cf75e3b7cbb4ea77c.png",
+    "index.html": "/jbr-projects/index.html",
+    "main.0f17c596.css.map": "/jbr-projects/static/css/main.0f17c596.css.map",
+    "main.47c7e4df.js.map": "/jbr-projects/static/js/main.47c7e4df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f17c596.css",
+    "static/js/main.47c7e4df.js"
+  ]
+}
