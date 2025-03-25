@@ -1,8 +1,8 @@
 [
   {
     "translation": {
-      "Short Description": "Engenheiro Informático | Licenciado em Engenharia Informática | A frequentar mestrado em Engenharia Informática",
-      "Long Description": "Durante os meus anos de estudante, ganhei experiência profissional e envolvi-me num projeto internacional que permitiu-me sair da minha zona de conforto. Esta experiência internacional deu-me a oportunidade de conhecer diferentes pessoas e culturas para além de aperfeiçoar a língua inglesa. Após esta experiência internacional, fui selecionado para fazer parte do Summer Camp da Critical Software, onde aprendi novas tecnologias e percebi como uma empresa trabalha nos seus projetos. Neste momento, frequento o Mestrado em Engenharia Informática - Sistemas Computacionais no Instituto Superior de Engenharia do Porto.",
+      "Short Description": "Engenheiro Informático na DACHSER | Mestrado em Engenharia Informática",
+      "Long Description": "Sou um engenheiro de software dedicado, com um histórico comprovado tanto em desenvolvimento front-end como back-end. A minha jornada começou como desenvolvedor web, utilizando tecnologias como CodeIgniter, Bootstrap, HTML, CSS e PHP, e evoluiu para incluir frameworks e linguagens avançadas como Angular, Spring Boot e Java. A minha experiência como freelancer na IDSocial diversificou ainda mais a minha expertise em várias indústrias, permitindo-me atender às necessidades únicas dos clientes. Na KPMG Portugal, comecei na equipa de front-end e consegui ascender a um cargo de Tech Lead na divisão de back-end, colaborando com stakeholders, desenhando soluções robustas e orientando a equipa de desenvolvedores.\n\nAtualmente, na DACHSER, inovo na área de Contract&Logistics, entregando soluções de software impactantes.\n\nAcadémicamente, possuo um Mestrado em Engenharia Informática pelo Instituto Superior de Engenharia do Porto, onde especializei-me em processos de CI/CD, microserviços, design de APIs REST, cibersegurança, entre outros. A experiência internacional adquirida durante um Projeto Europeu no âmbito do European Project Semester aprimorou as minhas competências em gestão de projetos, comunicação e trabalho em equipa.",
       "Available in": "Disponível em",
       "Scroll to see more": "Scroll para ver mais",
       "Languages": "Linguagens",
@@ -12,18 +12,26 @@
       "Professional Experience": "Experiência Profissional",
       "Present": "Presente",
       "Academic Education": "Formação Académica",
-      "Footer Text": "© 2025. Todos os direitos reservados."
+      "Footer Text": "© 2025. Todos os direitos reservados. Esta página foi desenvolvida para aprender React e Tailwind CSS."
     }
   },
   {
     "jobs": [
       {
+        "Company Name": "DACHSER",
+        "CompanyImage": "images/companies/dachser_logo.jfif",
+        "Job Position": "Engenheiro Informático | Contract&Logistics",
+        "Start Date": "mar 2025",
+        "End Date": "Presente",
+        "Job Description": ""
+      },
+      {
         "Company Name": "KPMG Portugal",
         "CompanyImage": "images/companies/kpmg-portugal.jfif",
-        "Job Position": "Consultor Informático Analista",
+        "Job Position": "Engenheiro Informático",
         "Start Date": "out 2022",
-        "End Date": "presente",
-        "Job Description": ""
+        "End Date": "mar 2025",
+        "Job Description": "Comecei na equipa de Front-End, estando a trabalhar 4 meses com Angular, num projeto importante para um dos principais clientes da empresa. Depois, à medida que as necessidades do projeto mudaram, transitei para a equipa de Back-End, onde utilizei o Spring Boot. Esta mudança ajudou-me a desenvolver as minhas competências em Java e a ganhar experiência com tecnologias de back-end. Após dois anos, tornei-me Tech Lead de back-end passei a trabalhar de perto com os stakeholders para entender as necessidades do projeto, desenhar soluções eficazes e resolver desafios técnicos. Não só isso, como também orientei uma equipa de desenvolvedores, ajudando-os a melhorar as suas competências e a seguir as melhores práticas para otimizar o trabalho em equipa e os resultados do projeto."
       },
       {
         "Company Name": "IDSocial",
@@ -31,7 +39,7 @@
         "Job Position": "Freelancer",
         "Start Date": "out 2021",
         "End Date": "set 2022",
-        "Job Description": "Desenvolvi vários projetos para as mais variadas áreas, desde a construção civil, ao retalho, à logística, etc. O objetivo foi criar um software que satisfaça as ideias do cliente. Otimizei competências a nível de organização de tempo, estando a conciliando com a licenciatura, contacto direto com o cliente, proatividade e a adquirir experiência como freelancer."
+        "Job Description": "Desenvolvi vários projetos em diferentes indústrias, incluindo construção civil, retalho e logística. O meu objetivo era criar software que atendesse à visão de cada cliente. Durante este período, melhorei as minhas competências em comunicação com clientes, proatividade, gestão de tempo e adquiri uma valiosa experiência como freelancer—tudo isto enquanto completava a minha licenciatura."
       },
       {
         "Company Name": "Critical Software",
@@ -39,7 +47,7 @@
         "Job Position": "Estágio de Verão | Estagiário",
         "Start Date": "jul 2022",
         "End Date": "ago 2022",
-        "Job Description": "Neste estágio de verão, para além de trabalhar com novas ferramentas de gestão de projetos e com novas tecnologias para desenvolvimento de software, tive a oportunidade de conhecer pessoas espalhadas por Portugal Continental."
+        "Job Description": "Durante este estágio de verão, aprendi novas ferramentas de gestão de projetos e tecnologias de desenvolvimento de software. Tive também a oportunidade de conhecer pessoas de diferentes partes de Portugal."
       },
       {
         "Company Name": "Âmbito Infinito",
@@ -47,7 +55,7 @@
         "Job Position": "Estágio Curricular | Estagiário",
         "Start Date": "jun 2017",
         "End Date": "jul 2018",
-        "Job Description": "Como desenvolvedor web era responsável por desenvolver software para os clientes utilizando várias tecnologias e linguagens de programação. Foi a minha primeira experiência profissional onde comecei a desenvolver competências tais como: comunicação e contacto direto com o cliente."
+        "Job Description": "Como desenvolvedor web, fui responsável por criar software para clientes utilizando várias tecnologias, incluindo CodeIgniter e Bootstrap, assim como linguagens de programação como HTML, CSS e PHP. Esta foi a minha primeira experiência profissional, onde comecei a desenvolver competências importantes, como comunicação e interação direta com os clientes."
       }
     ]
   },
@@ -56,10 +64,10 @@
       {
         "University Name": "Instituto Superior de Engenharia do Porto",
         "UniversityImage": "images/facs/isep.jfif",
-        "University Course": "Mestrado em Engenharia Informática- Sistemas Computacionais",
+        "University Course": "Mestrado em Engenharia Informática | Cibersegurança e Administração de Sistemas",
         "Start Date": "set 2022",
-        "End Date": "presente",
-        "University Description": ""
+        "End Date": "out 2024",
+        "University Description": "Desenvolvi conhecimentos em processos de CI/CD e desenvolvimento de software utilizando uma arquitetura de microserviços. Adicionalmente, adquiri experiência em programação paralela em Java e no desenvolvimento de aplicações móveis com Java e Android Studio. Também aprendi a construir APIs REST, seguindo as melhores práticas com base no modelo Richardson REST Maturity Model, e adquiri competências em administração de base de dados, com foco em desempenho, segurança, escalabilidade, proteção de dados e recuperação de falhas. Além disso, adquiri e apliquei princípios para modelação, avaliação e análise de ameaças em cibersegurança, sendo capaz de analisar criticamente ferramentas para fortalecer a postura de cibersegurança de uma organização."
       },
       {
         "University Name": "AP Hogeschool Antwerpen",
@@ -67,7 +75,7 @@
         "University Course": "European Project Semester",
         "Start Date": "jan 2022",
         "End Date": "jun 2022",
-        "University Description": "Permitiu-me comunicar em inglês e aprender uma nova tecnologia e linguagem de programação através do desenvolvimento de uma aplicação mobile para uma empresa belga na área da educação (Onderwijstalent). Desenvolvi competências de gestão de projetos de software, comunicação, trabalho em equipa, flexibilidade, adaptação e agilidade de aprendizagem."
+        "University Description": "Esta experiência permitiu-me comunicar em inglês e aprender uma nova tecnologia e linguagem de programação enquanto desenvolvia uma aplicação móvel para uma empresa belga na área da educação, a Onderwijstalent. Adquiri competências em gestão de projetos de software, comunicação, trabalho em equipa, flexibilidade, adaptabilidade e agilidade de aprendizagem."
       },
       {
         "University Name": "Instituto Superior Politécnico de Gaya",
@@ -75,7 +83,7 @@
         "University Course": "Licenciatura em Engenharia Informática",
         "Start Date": "set 2019",
         "End Date": "jun 2022",
-        "University Description": "Permitiu-me aperfeiçoar técnicas de programação, aprender novas tecnologias e linguagens, criar e gerir base de dados, gerir e planear redes de computadores e aprender inteligência artificial. Desenvolvi competências de gestão de projetos de software, processamento de informação, desenvolvimento de algoritmos e análise de métodos matemáticos."
+        "University Description": "Esta experiência permitiu-me aprimorar as minhas técnicas de programação, aprender novas tecnologias e linguagens, criar e gerir bases de dados, planear e gerir redes de computadores, e explorar a inteligência artificial. Desenvolvi competências em gestão de projetos de software, processamento de informações, desenvolvimento de algoritmos e análise de métodos matemáticos."
       }
     ]
   }

@@ -8,14 +8,11 @@ function Profissional() {
   //variable to do the translatin
   const { t, i18n } = useTranslation();
 
-  //check if the browser's already has language selected, if not select the default value
-  const [language, setLanguage] = useState(() => (localStorage.getItem("language") ? localStorage.getItem("language") : "en-GB"));
-
   //get the jobs in each language
-  const jobs = i18n.options.resources[language + "_jobs"];
+  const jobs = i18n.options.resources[i18n.language + "_jobs"];
 
   //get the universities in each language
-  const facs = i18n.options.resources[language + "_facs"];
+  const facs = i18n.options.resources[i18n.language + "_facs"];
 
   return (
     <div className="container2xl min-h-screen p-5 bg-white dark:bg-gray-900 dark:text-white">

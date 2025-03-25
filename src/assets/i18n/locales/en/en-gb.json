@@ -1,8 +1,8 @@
 [
   {
     "translation": {
-      "Short Description": "Software Engineer | Master's of Computer Engineering",
-      "Long Description": "I am a dedicated Software Engineer with a proven track record in both front-end and back-end development. My journey began as a web developer using technologies like CodeIgniter, Bootstrap, HTML, CSS, and PHP, and has evolved to encompass advanced frameworks such as Angular, Spring Boot, and Java. My freelance experience at IDSocial further diversified my expertise across various industries, enabling me to meet unique client needs. At KPMG Portugal, I started in the front-end team and progressed to a Technical Lead role in the back-end division, collaborating with stakeholders, designing robust solutions, and mentoring developers.\n\nCurrently at DACHSER, I innovate in the contract and logistics space, delivering impactful software solutions.\n\nAcademically, I hold a Master’s in Computer Engineering from Instituto Superior de Engenharia do Porto, where I focused on CI/CD processes, microservices, REST API design, cybersecurity, and more. An international project experience during a European Project Semester enhanced my skills in project management, communication, and teamwork.",
+      "Short Description": "Software Engineer at DACHSER | Master's of Computer Engineering",
+      "Long Description": "I am a dedicated Software Engineer with a proven track record in both front-end and back-end development. My journey began as a web developer using technologies like CodeIgniter, Bootstrap, HTML, CSS, and PHP, and has evolved to encompass advanced frameworks and languages such as Angular, Spring Boot, and Java. My freelance experience at IDSocial further diversified my expertise across various industries, enabling me to meet unique client needs. At KPMG Portugal, I started in the front-end team and progressed to a Technical Lead role in the back-end division, collaborating with stakeholders, designing robust solutions, and mentoring developers.\n\nCurrently at DACHSER, I innovate in the contract and logistics space, delivering impactful software solutions.\n\nAcademically, I hold a Master’s in Computer Engineering from Instituto Superior de Engenharia do Porto, where I focused on CI/CD processes, microservices, REST API design, cybersecurity, and more. An international project experience during a European Project Semester enhanced my skills in project management, communication, and teamwork.",
       "Available in": "Available in",
       "Scroll to see more": "Scroll to see more",
       "Languages": "Languages",
@@ -12,7 +12,7 @@
       "Professional Experience": "Professional Experience",
       "Present": "Present",
       "Academic Education": "Academic Education",
-      "Footer Text": "© 2025. All Rights Reserved."
+      "Footer Text": "© 2025. All Rights Reserved. This webpage was developed to learn React and Tailwind CSS."
     }
   },
   {
@@ -64,7 +64,7 @@
       {
         "University Name": "Instituto Superior de Engenharia do Porto",
         "UniversityImage": "images/facs/isep.jfif",
-        "University Course": "Master's of Computer Engineering | Computing Systems",
+        "University Course": "Master's of Computer Engineering | Cybersecurity and Systems Administration",
         "Start Date": "Sep 2022",
         "End Date": "Oct 2024",
         "University Description": "I have developed knowledge in CI/CD processes and the supporting technologies, along with software development using a microservices architecture. Additionally, I have gained experience in parallel programming in Java and mobile application development with Java and Android Studio.\nI have also learned to build REST APIs following best practices based on the Richardson REST Maturity Model, and have gained skills in DBMS administration, focusing on performance, security, scalability, data protection, and failure recovery. Furthermore, I have acquired and applied principles for cybersecurity modeling, evaluation, and threat assessment, and can critically analyze tools to strengthen an organization’s cybersecurity posture."
