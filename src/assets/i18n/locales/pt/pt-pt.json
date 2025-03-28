@@ -19,7 +19,7 @@
     "jobs": [
       {
         "Company Name": "DACHSER",
-        "CompanyImage": "jbr-projects/images/companies/dachser_logo.jfif",
+        "CompanyImage": "images/companies/dachser_logo.jfif",
         "Job Position": "Engenheiro Informático | Contract&Logistics",
         "Start Date": "mar 2025",
         "End Date": "Presente",
@@ -27,7 +27,7 @@
       },
       {
         "Company Name": "KPMG Portugal",
-        "CompanyImage": "jbr-projects/images/companies/kpmg-portugal.jfif",
+        "CompanyImage": "images/companies/kpmg-portugal.jfif",
         "Job Position": "Engenheiro Informático",
         "Start Date": "out 2022",
         "End Date": "mar 2025",
@@ -35,7 +35,7 @@
       },
       {
         "Company Name": "IDSocial",
-        "CompanyImage": "jbr-projects/images/companies/idsocial.jfif",
+        "CompanyImage": "images/companies/idsocial.jfif",
         "Job Position": "Freelancer",
         "Start Date": "out 2021",
         "End Date": "set 2022",
@@ -43,7 +43,7 @@
       },
       {
         "Company Name": "Critical Software",
-        "CompanyImage": "jbr-projects/images/companies/critical-software.jfif",
+        "CompanyImage": "images/companies/critical-software.jfif",
         "Job Position": "Estágio de Verão | Estagiário",
         "Start Date": "jul 2022",
         "End Date": "ago 2022",
@@ -51,7 +51,7 @@
       },
       {
         "Company Name": "Âmbito Infinito",
-        "CompanyImage": "jbr-projects/images/companies/ambito-infinito.jfif",
+        "CompanyImage": "images/companies/ambito-infinito.jfif",
         "Job Position": "Estágio Curricular | Estagiário",
         "Start Date": "jun 2017",
         "End Date": "jul 2018",
@@ -63,7 +63,7 @@
     "facs": [
       {
         "University Name": "Instituto Superior de Engenharia do Porto",
-        "UniversityImage": "jbr-projects/images/facs/isep.jfif",
+        "UniversityImage": "images/facs/isep.jfif",
         "University Course": "Mestrado em Engenharia Informática | Cibersegurança e Administração de Sistemas",
         "Start Date": "set 2022",
         "End Date": "out 2024",
@@ -71,7 +71,7 @@
       },
       {
         "University Name": "AP Hogeschool Antwerpen",
-        "UniversityImage": "jbr-projects/images/facs/ap-hogeschool.jfif",
+        "UniversityImage": "images/facs/ap-hogeschool.jfif",
         "University Course": "European Project Semester",
         "Start Date": "jan 2022",
         "End Date": "jun 2022",
@@ -79,7 +79,7 @@
       },
       {
         "University Name": "Instituto Superior Politécnico de Gaya",
-        "UniversityImage": "jbr-projects/images/facs/ispgaya.jfif",
+        "UniversityImage": "images/facs/ispgaya.jfif",
         "University Course": "Licenciatura em Engenharia Informática",
         "Start Date": "set 2019",
         "End Date": "jun 2022",

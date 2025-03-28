@@ -80,7 +80,7 @@ function Profissional() {
                       />
                     </span>
                     <img
-                      className="p-3 w-20 rounded-3xl"
+                      className="p-0.5 md:p-2 lg:p-3 xl:p-3 2xl:p-3 w-20 rounded-3xl"
                       src={fac.UniversityImage}
                       alt={fac["University Name"]}
                       title={fac["University Name"]}
